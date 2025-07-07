@@ -47,17 +47,17 @@ To classify brain MRI scans into four categories: **Glioma**, **Meningioma**, **
 
 ## Project 2: 5 Flower Classification Using CNNs
 
-### 📋 Objective
+### Objective
 To classify images of five flower types—**Tulip, Lily, Lotus, Sunflower, Orchid**—using pre-trained convolutional models.
 
-### 🔧 Models Evaluated
+### Models Evaluated
 - ResNet101 (Best performer)
 - DenseNet169
 - DenseNet201
 - ResNet50
 - InceptionV3
 
-### 📊 Results (Overall)
+### Results (Overall)
 
 | Model         | Accuracy (%) | Precision (%) | Recall (%) | F1 Score (%) | MCC (%)  |
 |---------------|--------------|----------------|-------------|---------------|----------|
@@ -67,14 +67,14 @@ To classify images of five flower types—**Tulip, Lily, Lotus, Sunflower, Orchi
 | InceptionV3   | 95.24        | 95.40          | 95.24       | 95.25         | 94.08    |
 | ResNet50      | 93.95        | 94.33          | 93.95       | 93.97         | 92.52    |
 
-### 🔍 Class-wise Insights
+### Class-wise Insights
 - **ResNet101** was most consistent across all flower types.
 - **DenseNet169** excelled in Tulip and Orchid detection.
 - AUC scores for all classes were above 0.99, indicating high reliability.
 
 ---
 
-## 🔎 Why No Code?
+## Why No Code?
 
 This repository is intended as a **documentation and evaluation showcase** only. The focus is on presenting:
 - Research goals
@@ -86,13 +86,12 @@ The full implementation, dataset handling, and training pipeline are **not share
 
 ---
 
-## 📄 Additional Files
+## Additional Files
 
-- 📑 `requirements.txt` – lists Python libraries used (for reproducibility).
-- 🖼️ Images & figures (optional) – model performance charts (if added).
+- `requirements.txt` – lists Python libraries used (for reproducibility).
 
 ---
 
-## 📬 Contact
+## Contact
 
 For academic collaboration or inquiries about the methodology, feel free to connect via GitHub Issues or email (if applicable).
